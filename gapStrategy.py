@@ -6,7 +6,7 @@ import pandas as pd
 import os
 
 class StockConnect:
-
+    
     def __init__(self, apiKey):
         self.apiKey = apiKey
         self.trend = ''
