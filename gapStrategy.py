@@ -5,8 +5,8 @@ import json
 import pandas as pd
 import os
 
-class StockConnect:
-    
+class AlgoConnect:
+
     def __init__(self, apiKey):
         self.apiKey = apiKey
         self.trend = ''
